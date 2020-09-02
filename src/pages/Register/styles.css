@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(219, 219, 219);
+}
+
+ul {
+    list-style-type: none;
+   }
+
+#header {
+    height: 50px;
+    justify-content: center;
+    text-align: right;
+    padding-right: 20px;
+    background-color: #333;
+}
+
+#back{
+    color: white;
+    text-decoration: none;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.list{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.registerForm{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+#btnUpdate{
+    text-decoration: none;
+    color: black;
+}
+
+#btnUpdate:hover{
+    color: rgb(119, 119, 119);
+}
+
+#btnDelete{
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#btnDelete:hover{
+    color: black;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input[type=text]{
+    width: 400px;
+}
+
+#submit{
+    margin-right: 20px;
+}
